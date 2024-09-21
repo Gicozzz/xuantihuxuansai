@@ -58,7 +58,7 @@ frontend/                    # 前端代码，基于 Vue.js 框架
 - **Python 3.8+** (后端)
 - **Flask 2.0+**
 - **Vue.js 3.0+** (前端)
-- **MySQL 5.7+** (数据库)
+- **MySQL 8.0+** (数据库)
 
 ---
 
@@ -92,6 +92,12 @@ frontend/                    # 前端代码，基于 Vue.js 框架
   ```bash
   flask run
   ```
+
+  如果运行不了可以试试下面的方法（powershell）
+  进入到根目录
+  运行`$env:PYTHONPATH="根目录路径"`
+  再运行 `python backend/app.py` 即可  
+  
 
 ### 2. 前端安装
 
